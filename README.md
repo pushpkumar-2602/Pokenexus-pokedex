@@ -25,15 +25,11 @@ PokéNexus is a modern retro-inspired Pokédex web application built using HTML,
 
 ## Live Demo
 
-Add your GitHub Pages link here after deployment.
-
-Example:
-
-https://yourusername.github.io/pokenexus-pokedex/
+https://pushpkumar-2602.github.io/Pokenexus-pokedex/
 
 ## GitHub Repository
 
-https://github.com/yourusername/pokenexus-pokedex
+https://github.com/pushpkumar-2602/Pokenexus-pokedex
 
 ## How to Run
 
