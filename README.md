@@ -2,6 +2,14 @@
 
 PokéNexus is a modern retro-inspired Pokédex web application built using HTML, CSS, and JavaScript. The project combines nostalgic Pokémon aesthetics with futuristic neon UI effects, glassmorphism design, animated cards, and responsive layouts.
 
+## Preview
+
+### Desktop View
+
+![PokéNexus Screenshot](./assets/pokedex-preview.png)
+
+---
+
 ## Features
 
 - Dynamic Pokémon data using PokéAPI
