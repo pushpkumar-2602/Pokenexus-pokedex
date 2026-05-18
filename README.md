@@ -6,7 +6,7 @@ PokéNexus is a modern retro-inspired Pokédex web application built using HTML,
 
 ### Desktop View
 
-![PokéNexus Screenshot](./assets/pokedex-preview.png)
+![PokéNexus Screenshot](./assets:poke-preview.png)
 
 ---
 
