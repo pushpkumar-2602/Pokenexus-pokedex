@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PokéNexus | Retro Pokédex</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rajdhani:wght@300;400;500;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="crt-overlay"></div>
+    <div class="scanlines"></div>
+    <div class="grid-bg"></div>
+
+    <!-- Header -->
+    <header class="header">
+
+        <div class="top-bar">
+            <div class="system-text">
+                SYSTEM ACTIVE <br>
+                REGION KANTO
+            </div>
+
+            <div class="theme-box">
+                <span>LIGHT</span>
+
+                <label class="toggle-switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="title-area">
+            <h1>POKÉ NEXUS</h1>
+            <p>NEXT GEN DIGITAL POKÉDEX</p>
+        </div>
+
+        <!-- Search -->
+        <div class="controls">
+
+            <input 
+                type="text"
+                id="search"
+                placeholder="SEARCH POKÉMON..."
+                class="search-input"
+            >
+
+            <div id="type-filters" class="filter-container">
+                <button class="filter-btn active" data-type="all">
+                    ALL
+                </button>
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- Pokemon Grid -->
+    <main>
+        <div class="poke-container" id="poke-container"></div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
